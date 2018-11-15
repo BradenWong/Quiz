@@ -2,6 +2,8 @@ package com.example.quiz;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 /**
@@ -16,6 +18,10 @@ public class ExampleUnitTest {
     }
 
     @Test
-    public void nextQuestionIsCorrect(){
+    public void addition1984_isCorrect() {
+        assertEquals(5, 2 + 2);
+        // we know this is going to be false
     }
+
+
 }
